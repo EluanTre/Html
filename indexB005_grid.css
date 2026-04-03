@@ -1,0 +1,56 @@
+body {
+  color: #fff;
+  font-family: "Nunito Semibold";
+  text-align: center;
+}
+
+#content {
+  /* Mise en place d'une grille */
+  display: grid;
+
+  /* Configuration des colonnes */
+  grid-template-columns: repeat(3, 1fr);
+
+  /* Configuration des lignes */
+  grid-auto-rows: minmax(150px, auto);
+
+  /* Espacement entre les lignes et les colonnes */
+  gap: 10px;
+
+  /* Alignement des items de haut en bas*/
+  /* align-items: end; */
+
+  /* Alignement des items de gauche à droite */
+  /* justify-items: end; */
+
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#content div {
+  background-color: #3bbced;
+  padding: 30px;
+}
+
+#content div:nth-child(even) {
+  background-color: #777;
+}
+
+/* ------------------------------------------------------------- */
+/* Alignement des itemps */
+/* ------------------------------------------------------------- */
+
+.one {
+  justify-self: end;
+  align-self: end;
+}
+
+.two {
+  justify-self: center;
+  align-self: center;
+}
+
+.three {
+  justify-self: start;
+  align-self: start;
+}
