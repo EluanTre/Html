@@ -1,0 +1,23 @@
+body {
+  background-image: url(images/bn.png);
+  background-repeat: no-repeat;
+  background-position: center bottom 40px; /*70 px à monter depuis le bas*/
+  background-size: 20%; /*Taille de l'image par rapport au body*/
+}
+
+nav {
+  background-color: green;
+  outline: 10px solid yellow; /*Bordure extérieure*/
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen {
+  body {
+    background-position: center bottom 60px; /*70 px à monter depuis le bas*/
+    background-size: 40%; /*Taille de l'image par rapport au body*/
+  }
+}
