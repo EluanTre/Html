@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box; /*Evite le dépassement des bordures*/
+}
+
+nav a {
+  display: inline;
+  width: max-content;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+}
