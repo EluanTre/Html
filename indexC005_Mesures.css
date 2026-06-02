@@ -1,0 +1,24 @@
+button {
+  border: solid 1px gray;
+  background: lightgray;
+  font-size: 2rem;
+  padding: 0.5em 1em; /*Unité de mesure 'em' s'adaptant au font-size ci-dessus*/
+}
+
+/* button {
+  border: solid 1px gray;
+  background: lightgray;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+} */
+
+img {
+  /*
+  Unité de mesure par rapport à la taille de l'écran : 
+  100vh = taille de l'écran
+  50vh = 50 % de la taille de l'écran
+  25vh = 25 % de la taille de l'écran
+  */
+  height: 30vh;
+  width: 100%;
+}
