@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  /* -- Espacement entre les éléments -- */
+  flex-grow: 1;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background: #5e58ff;
+}
+
+.demo {
+  height: 600px;
+  background-color: lightgray;
+  /* -- Comportement en tant que 'block' */
+  display: flex;
+  /* -- Comportement en tant que 'inline' */
+  /* display: inline-flex; */
+  /* -- Direction des éléments -- */
+  flex-direction: row;
+  /* -- Placement des éléments -- */
+  justify-content: flex-start;
+  /* -- Position des éléments -- */
+  /* align-items: center; */
+  /* -- Retour à la ligne si présence de plusieurs éléments -- */
+  /* flex-wrap: wrap; */
+  /* -- Regroupement des lignes en début de l'élément div -- */
+  /* align-content: flex-start; */
+  /* -- Espacement entre les éléments (largeur / hauteur) -- */
+  gap: 10px 5px;
+}
+
+.square1 {
+  /* -- Agrandissement de l'élément (par défaut la valeur = 0) -- */
+  /* flex-grow: 2; */
+}
+
+.square2 {
+  /* -- Position des éléments -- */
+  /* align-self: flex-end; */
+  /* -- Agrandissement de l'élément (par défaut la valeur = 0) -- */
+  /* flex-grow: 1; */
+}
+
+.square1,
+.square2,
+.square3 {
+  color: white;
+  width: 100px;
+  height: 100px;
+  /* -- Agrandissement de l'élément (par défaut la valeur = 0) -- */
+  flex-grow: 1;
+}
+
+.square1 {
+  background-color: darkorchid;
+}
+
+.square2 {
+  background-color: green;
+}
+
+.square3 {
+  background-color: orange;
+}
